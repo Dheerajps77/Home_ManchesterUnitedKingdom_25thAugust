@@ -1,0 +1,14 @@
+2018-06-27 18:11:08 INFO  Log4jExample:36 - ================This is fourth message===========
+2018-06-27 18:11:08 INFO  Log4jExample:29 - ================This is Third message===========
+2018-06-27 18:11:08 INFO  Log4jExample:17 - ================This is first message===========
+2018-06-27 18:11:37 INFO  Log4jExample:46 - opening webiste
+2018-06-27 18:11:37 INFO  Log4jExample:48 - entring weight
+2018-06-27 18:11:37 INFO  Log4jExample:50 - selecting kilograms
+2018-06-27 18:11:37 INFO  Log4jExample:52 - selecting height in feet
+2018-06-27 18:11:37 INFO  Log4jExample:54 - selecting height in inchs
+2018-06-27 18:11:37 INFO  Log4jExample:56 - Clicking on calculate
+2018-06-27 18:11:37 INFO  Log4jExample:59 - Getting SIUnit value
+2018-06-27 18:11:37 INFO  Log4jExample:61 - Getting USUnit value
+2018-06-27 18:11:37 INFO  Log4jExample:63 - Getting UKUnit value
+2018-06-27 18:11:37 INFO  Log4jExample:65 - Getting overall description
+2018-06-27 18:11:40 INFO  Log4jExample:23 - ================This is Second message===========

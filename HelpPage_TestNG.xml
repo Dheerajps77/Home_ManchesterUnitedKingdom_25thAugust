@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HelpPageModule">
+  <test name="HelpPage"> 
+  <parameter name="browser" value="firefox"/>
+  <classes>
+  <class name="com.ManChesterUnitedKingdom.TestClass.HelpPageClass">
+  </class>
+  </classes>
+  </test>  
+</suite> 

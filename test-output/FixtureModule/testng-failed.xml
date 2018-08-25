@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FixtureModule]">
+  <test thread-count="5" name="Fixture(failed)">
+    <classes>
+      <class name="com.MUK.TestClass.FixturesPageClass">
+        <methods>
+          <include name="InvokeBroswer"/>
+          <include name="CalenderForm"/>
+          <include name="CloseBroswer"/>
+        </methods>
+      </class> <!-- com.MUK.TestClass.FixturesPageClass -->
+    </classes>
+  </test> <!-- Fixture(failed) -->
+</suite> <!-- Failed suite [FixtureModule] -->

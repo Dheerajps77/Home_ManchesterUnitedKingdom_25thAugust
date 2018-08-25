@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegisterYourInterest">
+  <test name="Testing of RegisterYourInterest Module">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.ManChesterUnitedKingdom.TestClass.United_vs_TottenhamInHomePageClass"/>
+    </classes>
+  </test>
+</suite>

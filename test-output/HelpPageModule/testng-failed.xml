@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HelpPageModule]">
+  <test thread-count="5" name="HelpPage(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.ManChesterUnitedKingdom.TestClass.HelpPageClass">
+        <methods>
+          <include name="GeneratingExtentReport"/>
+          <include name="InvokeBroswer"/>
+          <include name="FailedHelpPageModule"/>
+          <include name="CloseBroswer"/>
+          <include name="CreateTest_HelpPage"/>
+          <include name="SettingUpExtentReports"/>
+          <include name="getResultHelpPage"/>
+        </methods>
+      </class> <!-- com.ManChesterUnitedKingdom.TestClass.HelpPageClass -->
+    </classes>
+  </test> <!-- HelpPage(failed) -->
+</suite> <!-- Failed suite [HelpPageModule] -->

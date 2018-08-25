@@ -1,0 +1,5 @@
+2018-08-25 22:19:42 INFO  TestBase:73 - Browser path got set
+2018-08-25 22:19:42 INFO  TestBase:76 - Initiated the broswer driver
+2018-08-25 22:19:54 INFO  TestBase:79 - Maximised the broswer
+2018-08-25 22:19:55 INFO  TestBase:82 - Sync the broswer
+2018-08-25 22:19:55 INFO  TestBase:86 - Broswer got opened

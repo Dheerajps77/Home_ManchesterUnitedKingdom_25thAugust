@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Tickets and Hospitality Suite]">
+  <test thread-count="5" name="Tickets and Hospitality Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.ManChesterUnitedKingdom.TestClass.Tickets_HospitalityClass">
+        <methods>
+          <include name="Match_ticketsFlow"/>
+          <include name="InvokeBroswer"/>
+          <include name="loadlog4J"/>
+          <include name="CloseBroswer"/>
+          <include name="ClubAmerica"/>
+        </methods>
+      </class> <!-- com.ManChesterUnitedKingdom.TestClass.Tickets_HospitalityClass -->
+    </classes>
+  </test> <!-- Tickets and Hospitality Test(failed) -->
+</suite> <!-- Failed suite [Tickets and Hospitality Suite] -->

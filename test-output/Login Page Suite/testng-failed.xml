@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login Page Suite]">
+  <test thread-count="5" name="Login Page(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.ManChesterUnitedKingdom.TestClass.LoginPageClass">
+        <methods>
+          <include name="InvokeBroswer"/>
+          <include name="LogInFlow"/>
+          <include name="loadlog4J"/>
+          <include name="Completed_LoginReports"/>
+          <include name="CloseBroswer"/>
+          <include name="LoginReports"/>
+        </methods>
+      </class> <!-- com.ManChesterUnitedKingdom.TestClass.LoginPageClass -->
+    </classes>
+  </test> <!-- Login Page(failed) -->
+</suite> <!-- Failed suite [Login Page Suite] -->
